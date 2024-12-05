@@ -2,7 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Image from "next/image";
 export const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
@@ -25,9 +25,9 @@ export const RecentProjects = () => {
             overflow-hidden sm:h-[40vh] h-[30vh] mb-10"
               >
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image src="/bg.png" alt="bg-img" />
                 </div>
-                <img
+                <Image
                   src={img}
                   alt={title}
                   className="
@@ -54,7 +54,7 @@ export const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image src={icon} alt={icon} className="p-2" />
                     </div>
                   ))}
                 </div>

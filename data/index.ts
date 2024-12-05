@@ -1,3 +1,5 @@
+import { m } from "framer-motion";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -14,6 +16,7 @@ export const gridItems = [
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
+    layout: "fill",
     spareImg: "",
   },
   {
