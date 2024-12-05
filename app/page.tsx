@@ -3,8 +3,7 @@ import { RecentProjects } from "@/Components/RecentProjects";
 import { FloatingNav } from "@/Components/ui/FloatingNav";
 import Grid from "@/Components/ui/Grid";
 import { navItems } from "@/data";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
+
 import { Clients } from "../Components/Clients";
 
 export default function Home() {
